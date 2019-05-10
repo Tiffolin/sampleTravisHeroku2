@@ -1,0 +1,35 @@
+{
+  "name": "travistryout",
+  "version": "1.0.0",
+  "description": "This repo illustrates using git heroku and travis together at last",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run link server.js && mocha ./tests/index-spec.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tiffolin/sampleTravisHeroku2.git"
+  },
+  "keywords": [
+    "git",
+    "heroku",
+    "travis",
+    "continuous",
+    "integration"
+  ],
+  "author": "Tiffany Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tiffolin/sampleTravisHeroku2/issues"
+  },
+  "homepage": "https://github.com/Tiffolin/sampleTravisHeroku2#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^6.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}

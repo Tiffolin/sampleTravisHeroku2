@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- stable
+npm: true
+  cache:
+    directories:
+      - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: tHp5u0jltWPSAnW8JbrO1kzSMBn/7JqK5bJP/WdOrn1FmaJOc8djnN7N0TxmCo7ctO9BGm9aj0jPxYhUDpIln07BTRjug/LGYB8oSMXOI7p2KiHdc+mLxFzjrHl+RE00f3bTde2uciKyd79U+10fySDjwr3KovzY9IX0Rd9v0/2ohQPHQrJOHfnTEy27ehtzsyBp5IGKWp4MrfU5wkA+ePTfpelNnanKhAwq6K1dndttbF8jPv/UJi0nAEFQX9e/tST7raf8KdekTpWbJaX/ZsT7Tmi7EfWNsB6CETqNxifWWznuScOAw0IRkpRa7GPDF0Qyk/MdG3CFvx7OpGTxSiRPiuoUfcJrAJTDe4U4ZsgA3cmlehD55VYtBUEStR1+lAsl4KVJiE8Td47zIIuf8g6VM1jh+CrmByuan7+sAzkRHumHzD6vxiEUcpcusXNxF4j0h2kK7edZHqyxsN6+A7qIXGOtCC0fOSzZAKbSZet2C4Kx4AJRoLf6977WPUFMJ+v1IfeqzlT0+extYLTrhy+ilZ9xO9jVq5GSJDCCY3DQWS1+Y3TpGtB3mzDI1+s8b8S3lb5QSkS8E+/A6JoI3XDNMPA9xsoKKaguI85b5dzXJr0FnQdW/QN0brEgqZ7Nw6Anvg87WslRpT4Y8D3sDkk9dFMicJ9bbCz/G1x1vOs=
+  app: sampleTravisHeroku2
+  on:
+    repo: Tiffolin/sampleTravisHeroku2

@@ -1,6 +1,7 @@
 /* server.js main file */
 const express = require('express');
 
+//test test
 const app = express();
 
 const PORT = process.env.PORT || 3001;
@@ -18,7 +19,6 @@ const server = app.listen(PORT, () => {
 
 // eslint-disable-next-line no-console
 console.log('server = ', server);
-// eslint-disable-next-line no-console
-console.log('not working...');
+
 
 module.exports = server;

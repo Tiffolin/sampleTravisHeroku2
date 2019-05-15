@@ -3,3 +3,10 @@ node_js:
 - stable
 - '6'
 - '4'
+deploy:
+  provider: heroku
+  api_key:
+    secure: CjmPLX52oFIjKzSKZ4o2s/YQHbSZhZApqHQ1dO8MP2AWVenXyPBJgfDO5ISuwDEiA80m6gLYFS0c7qKoXbFjs7WoNOKVwAhs7E5Mqr97alq3rhFKZAVE4WozIfG47ENyzBmROGODobcUMIPfskLGnsPZFuqwG8drLUopOkWCXVTAarBexcYfkHXnig2WCj4Cf8haOrYE2/Au0VCe1Kjj4VaCVzOcMeUXhWHUlwCjCDmOfXMVf/+MzyVrpNr7IrfTZ93PMLKtVPO9MkSqCysYRh0Pe0rtxL/EdohU3D6mJuF6jGqC+agBTpX7LDg/F8f3joRBu+P2nI78CoD6rOXa41RfKQW86qdzoB/qkkLt7/uV0kN/0MxuAdUrNoOMQzdYOmGQeSEXYEWfeJ2IocE2swTAyfw3VbC6DlTta9mAGXzhNWLWhjBbJhTQ/P4/3eZHD1D3oYgnjmy3qM11ouKfbHb7+2beviirryO4c7fn6zylhgphk+sI7BxCOOdU04WbnTb7i4fyHrzlkOVkHRFpkAKWBGqK8oInHnIzRCQzMAvYQZqpYRtX+gpIcmNTlnOoW1vgbThT8VJ3INPsVmgncQeqTidsioRWFszKTjIKLbqO+WHdrZosalnyuPh/5WM7b6C0RdTQKAy4/LVsQmVjrDtk3JHdaamKu/IKDAQjxL8=
+  app: sampleTravisHeroku2
+  on:
+    repo: Tiffolin/sampleTravisHeroku2

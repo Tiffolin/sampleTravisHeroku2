@@ -1,29 +1,28 @@
 {
-  "name": "travistryout",
+  "name": "travis02",
   "version": "1.0.0",
-  "description": "This repo illustrates using git heroku and travis together at last",
+  "description": "this repo illustrates using git heroku and travis together at last",
   "main": "server.js",
   "scripts": {
-    "test": "npm run link server.js && mocha ./tests/index-spec.js",
+    "test": "npm run lint server.js && mocha ./tests/index-spec.js",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tiffolin/sampleTravisHeroku2.git"
+    "url": "git+https://github.com/eapostol/sample-travis-heroku-02.git"
   },
   "keywords": [
     "git",
     "heroku",
     "travis",
-    "continuous",
-    "integration"
+    "CI"
   ],
-  "author": "Tiffany Lin",
+  "author": "Edward J. Apostol",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Tiffolin/sampleTravisHeroku2/issues"
+    "url": "https://github.com/eapostol/sample-travis-heroku-02/issues"
   },
-  "homepage": "https://github.com/Tiffolin/sampleTravisHeroku2#readme",
+  "homepage": "https://github.com/eapostol/sample-travis-heroku-02#readme",
   "dependencies": {
     "chai": "^4.2.0",
     "express": "^4.16.4",
